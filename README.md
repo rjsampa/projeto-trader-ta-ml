@@ -6,7 +6,7 @@ A modeling pipeline aimed at constructing machine learning models that generate 
 
 The signals used for model training are based on the method presented by Sezer & Ozbayoglu (2018). For each step $S_{t}$ in a historical price series $S$ of a stock, the signal at time step $S_{t+1}$ is given by:
 
-> Considering a time window $W=11$, where $W_{min}$ represents the lowest price, $W_{max}$ the highest price, and $W_{median}$ the median price:
+Considering a time window $W=11$, where $W_{min}$ represents the lowest price, $W_{max}$ the highest price, and $W_{median}$ the median price:
 
 - If $W_{median} = W_{min}$:
   - Signal = Buy (1)
